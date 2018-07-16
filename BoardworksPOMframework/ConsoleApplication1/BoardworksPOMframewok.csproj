@@ -60,6 +60,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Extensions\IWebDriverExtension.cs" />
+    <Compile Include="Generators\EmailAddressGenerator.cs" />
+    <Compile Include="Generators\NameGenerator.cs" />
+    <Compile Include="Pages\LoginPage.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -68,8 +71,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Generators\" />
-    <Folder Include="Pages\" />
     <Folder Include="Testdata\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
